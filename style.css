@@ -24,8 +24,137 @@ a {
   border: 1px solid black;
 }
 .con-max-width {
-  max-width: 1680;
+  min-width: 1920px;
 }
 .con {
-width: 1680px;
+width: 1780px;
+margin-left: auto;
+margin-right: auto;
 }
+
+/* 커스텀 */
+
+/* 헤더 시작 */
+.top-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #fdf5d5;
+}
+
+.top-banner span {
+  color: #b60217;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hd-con .top-menu {
+  display: flex;
+  justify-content: right;
+}
+
+.hd-con .top-menu li {
+  position: relative;
+  font-size: 13px;
+  color: #3d3a45;
+}
+
+.hd-con .top-menu li a {
+  padding: 0 0 0 11px;
+  margin-right: 11px;
+}
+
+.hd-con .img-box {
+  width: 170px;
+}  
+
+.hd-con .img-box img {
+  display: block;
+}
+
+.hd-con .hd-menu_box {
+  padding: 0 40px 0 115px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hd-con .hd-menu_box .btn-box {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  left: 0;
+}
+
+.hd-con .hd-menu_box .btn-box a {
+  position: relative;
+  height: 100%;
+
+}
+.hd-con .hd-menu_box .btn-box .line {
+  width: 30px;
+  display: block;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.hd-con .hd-menu_box .btn-box span::after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  top: 0;
+  background-color: #3d3a45;
+  position: absolute;
+}
+
+.hd-con .hd-menu_box .btn-box span:nth-child(2) {
+  top: 50%;
+  width: 15px;
+}
+
+.hd-con .hd-menu_box .btn-box span:last-child {
+  top: 100%;
+}
+
+
+.hd-con .hd-menu_box .hd-menu {
+  display: flex;
+  align-items: center;
+}
+
+.hd-con .hd-menu_box .hd-menu li a {
+  font-size: 18px;
+  margin: 0 35px 0 0;
+}
+
+.hd-con .hd-menu_box .hd-icon_box {
+  display: flex;
+}
+
+.hd-con .hd-menu_box .hd-icon_box .icon {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.hd-con .hd-menu_box .hd-icon_box .icon-2 {
+  width: 38px;
+}
+.hd-con .hd-menu_box .hd-icon_box .search-box {
+  width: 225px;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+.hd-con .hd-menu_box .hd-icon_box .search-box div {
+}
+
+.hd-con .hd-menu_box .hd-icon_box .search-box .icon-1 {
+  width: 25px;
+  margin-left: 195px;
+  margin-top: 2px;
+}
+/* 헤더 끝 */
